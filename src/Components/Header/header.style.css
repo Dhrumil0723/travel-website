@@ -1,9 +1,9 @@
 .header {
-  position: absolute;
+  position: sticky;
   top: 0;
   height: 100px;
   width: 100%;
-  background-color: salmon;
+  z-index: 20;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11,6 +11,7 @@
 
 .header .left-side {
   margin-left: 2rem;
+  position: relative;
 }
 
 .header .left-side p {
@@ -30,7 +31,6 @@
 
 .header .mid-side p {
   font-size: 36px;
-  font-family: Damion;
   text-decoration: none;
   color: #fff;
   font-family: "Damion", cursive;

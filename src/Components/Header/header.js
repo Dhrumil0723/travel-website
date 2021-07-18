@@ -1,16 +1,20 @@
 import React from "react";
 import { useState } from "react";
+import Destination from "./Destination/Destination";
 import "./header.style.css";
 
-const LeftSide = () => {
+const LeftSide = ({ click, setClick }) => {
   return (
-    <nav className="left-side links">
-      <p>
-        Destination <i className="far fa-chevron-down"></i>
-      </p>
-      <p>Blogs</p>
-      <p>Events</p>
-    </nav>
+    <>
+      <nav className="left-side links">
+        <p onClick={() => (!click ? setClick(true) : setClick(false))}>
+          Destination <i className="far fa-chevron-down"></i>
+        </p>
+        <p>Blogs</p>
+        <p>Events</p>
+      </nav>
+      {click && <Destination />}
+    </>
   );
 };
 
@@ -31,19 +35,13 @@ const RightSide = ({ click, setClick }) => {
       </div>
       <div
         className="select-lang"
-        onClick={() => {
-          if (click === false) {
-            setClick(true);
-          } else {
-            setClick(false);
-          }
-        }}
+        onClick={() => (!click ? setClick(true) : setClick(false))}
       >
         <div className="icons">
           <i className="far fa-globe"></i>
           <i className="far fa-chevron-down"></i>
         </div>
-        {click ? (
+        {click && (
           <div className="lang-list">
             <p>English</p>
             <p>English</p>
@@ -51,8 +49,6 @@ const RightSide = ({ click, setClick }) => {
             <p>English</p>
             <p>English</p>
           </div>
-        ) : (
-          ""
         )}
       </div>
     </div>
@@ -60,13 +56,14 @@ const RightSide = ({ click, setClick }) => {
 };
 
 const Header = () => {
-  const [click, setClick] = useState(false);
+  const [destClick, setDestClick] = useState(false);
+  const [langClick, setLangClick] = useState(false);
 
   return (
     <div className="header">
-      <LeftSide />
+      <LeftSide click={destClick} setClick={setDestClick} />
       <MidSide />
-      <RightSide click={click} setClick={setClick} />
+      <RightSide click={langClick} setClick={setLangClick} />
     </div>
   );
 };

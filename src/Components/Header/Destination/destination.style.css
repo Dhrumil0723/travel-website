@@ -1,0 +1,26 @@
+.destination {
+  position: absolute;
+  top: 7em;
+  left: -40px;
+  width: 100%;
+}
+
+.destination-wrapper {
+  width: 80%;
+  margin: auto;
+  padding: 0 2.5rem;
+}
+
+.destination-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+}
+
+.destination-heading {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
