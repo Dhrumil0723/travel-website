@@ -4,11 +4,16 @@
 }
 
 .card-img {
+  width: 255px;
+  height: 260px;
   position: relative;
 }
 
 .card-img img {
+  border-radius: 15px;
+  height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .card-text {
