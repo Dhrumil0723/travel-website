@@ -1,14 +1,16 @@
 .destination {
   position: absolute;
   top: 7em;
-  left: -40px;
-  width: 100%;
+  left: 20px;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 99;
 }
 
 .destination-wrapper {
-  width: 80%;
+  width: 85%;
   margin: auto;
-  padding: 0 2.5rem;
+  padding: 1rem 2.5rem;
 }
 
 .destination-card-container {

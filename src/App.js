@@ -3,7 +3,7 @@ import Header from "./Components/Header/header";
 import TopPart from "./Components/Top-section/TopPart";
 
 import "./App.css";
-import VisitorForm from "./Components/VisitorForm";
+// import VisitorForm from "./Components/VisitorForm";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Header />
         <TopPart />
       </div>
-      <VisitorForm />
+      {/* <VisitorForm /> */}
     </div>
   );
 }

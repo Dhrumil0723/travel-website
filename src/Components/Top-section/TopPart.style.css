@@ -1,7 +1,6 @@
 .top-part {
   height: 80vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   padding: 3em;
 }
@@ -9,7 +8,9 @@
 .top-part-title {
   font-family: "Plus Jakarta Display";
   width: 50%;
+  padding-left: 2em;
   color: #fff;
+  text-align: left;
 }
 
 .top-part-title > h1 {
@@ -61,7 +62,7 @@
 }
 
 .top-part .video-area > .video > .video-play > i {
-  font-size: 34px;
+  font-size: 28px;
 }
 
 .top-part .video-area > .video {
@@ -70,7 +71,7 @@
   justify-content: center;
   width: 50%;
   height: 480px;
-  padding: 16px 10px;
+  padding: 10px 4px;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(20px);
   border-radius: 43px;
