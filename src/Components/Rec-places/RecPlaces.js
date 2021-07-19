@@ -55,6 +55,16 @@ const RecPlaces = () => {
       image:
         "https://cdn.discordapp.com/attachments/753151975570276352/866602026182770688/unknown.png",
     },
+    {
+      name: "Safdarjung Tomb",
+      image:
+        "https://cdn.discordapp.com/attachments/753151975570276352/866643062360375306/safdarjung-tomb.jpg",
+    },
+    {
+      name: "Jim Corbet Nationalpark",
+      image:
+        "https://cdn.discordapp.com/attachments/753151975570276352/866643090088919040/jimcorbet-national-park.jpg",
+    },
   ];
 
   return (

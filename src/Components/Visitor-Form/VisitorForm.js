@@ -23,9 +23,8 @@ const useStyles = makeStyles((theme) => ({
 const Form = () => {
   const classes = useStyles();
   const [open, setOpen] = useState(false);
-
   const [name, setName] = useState("");
-  const [number, setNumber] = useState(91);
+  const [number, setNumber] = useState(+91);
   const [email, setEmail] = useState("");
   const [query, setQuery] = useState("");
 
@@ -119,7 +118,7 @@ const VisitorForm = () => {
     <div className="form">
       <div className="visitor-form">
         <div className="text">
-          <h1>Help us to Provide better by fillng a feedback !</h1>
+          <h1>Help us to improve better by filling a feedback form !</h1>
         </div>
         <div className="form-wrapper">
           <Form />
