@@ -2,7 +2,7 @@
   position: absolute;
   top: 5em;
   left: 20px;
-  width: 90%;
+  width: 95%;
   background-color: #fff;
   z-index: 99;
   border-radius: 15px;
@@ -11,7 +11,30 @@
 .destination-wrapper {
   width: 85%;
   margin: auto;
-  padding: 1rem 2.5rem;
+  padding: 1rem 6rem;
+  overflow-y: auto;
+  height: 50vh;
+}
+
+.destination ::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+.destination ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.destination ::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.destination ::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .destination-card-container {

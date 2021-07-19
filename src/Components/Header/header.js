@@ -10,8 +10,8 @@ const LeftSide = ({ click, setClick }) => {
         <p onClick={() => (!click ? setClick(true) : setClick(false))}>
           Destination <i className="far fa-chevron-down"></i>
         </p>
-        <p>Blogs</p>
-        <p>Events</p>
+        <a href="#blog">Blogs</a>
+        <a href="#culture">Culture</a>
       </nav>
       {click && <Destination />}
     </>
@@ -44,10 +44,10 @@ const RightSide = ({ click, setClick }) => {
         {click && (
           <div className="lang-list">
             <p>English</p>
-            <p>English</p>
-            <p>English</p>
-            <p>English</p>
-            <p>English</p>
+            <p>हिन्दी</p>
+            <p>বাংলা</p>
+            <p>ਪੰਜਾਬੀ </p>
+            <p>ગુજરાતી</p>
           </div>
         )}
       </div>

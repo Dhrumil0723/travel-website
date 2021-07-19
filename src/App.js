@@ -8,24 +8,19 @@ import StoriesSection from "./Components/Stories-section/StoriesSection";
 import "./App.css";
 import VisitorForm from "./Components/Visitor-Form/VisitorForm";
 import Blogs from "./Components/Blogs/Blogs";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <div
-        style={{
-          background: `url(./assets/image.png) no-repeat center center/cover`,
-          height: "110vh",
-        }}
-      >
-        <Header />
-        <TopPart />
-        <RecPlaces />
-        <CulturePage />
-        <StoriesSection />
-        <Blogs />
-        <VisitorForm />
-      </div>
+      <Header />
+      <TopPart />
+      <RecPlaces />
+      <CulturePage />
+      <StoriesSection />
+      <Blogs />
+      <VisitorForm />
+      <Footer />
     </div>
   );
 }

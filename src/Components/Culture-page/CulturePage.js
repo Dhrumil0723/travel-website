@@ -8,45 +8,45 @@ const cultureImages = [
       "https://cdn.discordapp.com/attachments/753151975570276352/866522596144840744/unknown.png",
   },
   {
-    text: "Culture",
+    text: "Cities",
     image:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866522596144840744/unknown.png",
+      "https://cdn.discordapp.com/attachments/753151975570276352/866613071106277386/unknown.png",
   },
   {
     text: "Culture",
     image:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866522596144840744/unknown.png",
+      "https://cdn.discordapp.com/attachments/753151975570276352/866613106619711488/unknown.png",
   },
   {
-    text: "Culture",
+    text: "Food",
     image:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866522596144840744/unknown.png",
+      "https://cdn.discordapp.com/attachments/753151975570276352/866613370027376690/unknown.png",
   },
   {
-    text: "Culture",
+    text: "Architecture",
     image:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866522596144840744/unknown.png",
+      "https://cdn.discordapp.com/attachments/753151975570276352/866613453778321428/unknown.png",
   },
   {
-    text: "Culture",
+    text: "Art",
     image:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866522596144840744/unknown.png",
+      "https://cdn.discordapp.com/attachments/753151975570276352/866613493971812382/unknown.png",
   },
   {
-    text: "Culture",
+    text: "Temples",
     image:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866522596144840744/unknown.png",
+      "https://cdn.discordapp.com/attachments/753151975570276352/866613516324438016/unknown.png",
   },
   {
-    text: "Culture",
+    text: "Beach",
     image:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866522596144840744/unknown.png",
+      "https://cdn.discordapp.com/attachments/753151975570276352/866613538507587594/unknown.png",
   },
 ];
 
 const CulturePage = () => {
   return (
-    <div className="culture-page">
+    <div className="culture-page" id="culture">
       <h1>India's Culture</h1>
       <div className="card-grid">
         {cultureImages.map((element, id) => (

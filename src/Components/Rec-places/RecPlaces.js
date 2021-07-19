@@ -31,19 +31,29 @@ const RecPlaces = () => {
         "https://cdn.discordapp.com/attachments/753151975570276352/866485799548354560/unknown.png",
     },
     {
-      name: "Taj Mahal",
+      name: "Statue of Unity",
       image:
-        "https://cdn.discordapp.com/attachments/753151975570276352/866485799548354560/unknown.png",
+        "https://cdn.discordapp.com/attachments/753151975570276352/866599607995858944/unknown.png",
     },
     {
-      name: "Taj Mahal",
+      name: "India Gate",
       image:
-        "https://cdn.discordapp.com/attachments/753151975570276352/866485799548354560/unknown.png",
+        "https://cdn.discordapp.com/attachments/753151975570276352/866599865583403008/unknown.png",
     },
     {
-      name: "Taj ",
+      name: "St. Cajetan Church",
       image:
-        "https://cdn.discordapp.com/attachments/753151975570276352/866485799548354560/unknown.png",
+        "https://cdn.discordapp.com/attachments/753151975570276352/866599554270887936/unknown.png",
+    },
+    {
+      name: "Hawa Mahal",
+      image:
+        "https://cdn.discordapp.com/attachments/753151975570276352/866603105517174784/unknown.png",
+    },
+    {
+      name: "Mysore Palace",
+      image:
+        "https://cdn.discordapp.com/attachments/753151975570276352/866602026182770688/unknown.png",
     },
   ];
 
