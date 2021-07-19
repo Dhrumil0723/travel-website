@@ -84,7 +84,9 @@ const Form = () => {
             id="email"
             type="email"
             value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) =>
+              setEmail(e.target.value.replace(/[^a-zA-Z\d]/gi, ""))
+            }
           />
         </div>
         <div className="input-container">
