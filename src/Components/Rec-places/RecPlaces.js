@@ -71,6 +71,7 @@ const RecPlaces = () => {
       </div>
       <div className="btm-design">
         <button>View All</button>
+        {/* <img src="./assets/bgImage.png" alt="vector" /> */}
       </div>
     </div>
   );

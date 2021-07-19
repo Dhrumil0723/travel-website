@@ -54,6 +54,12 @@
 
 .RecPlaces .btm-design {
   margin-top: 120px;
+  position: relative;
+}
+
+.RecPlaces .btm-design img {
+  position: absolute;
+  top: 0;
 }
 
 .RecPlaces .btm-design button {
