@@ -1,0 +1,20 @@
+.form-wrapper {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visitor-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 33.333%;
+  font-family: "Plus Jakarta Display";
+}
+input,
+label,
+textarea {
+  margin: 10px;
+}

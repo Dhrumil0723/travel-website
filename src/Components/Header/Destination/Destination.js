@@ -9,59 +9,59 @@ const Destination = () => {
         "https://cdn.discordapp.com/attachments/753151975570276352/866270198931521566/unknown.png",
     },
     {
-      cardText: "Delhi",
+      cardText: "Agra",
       cardImg:
-        "https://cdn.discordapp.com/attachments/753151975570276352/866270198931521566/unknown.png",
+        "https://cdn.discordapp.com/attachments/753151975570276352/866356469574533130/unknown.png",
     },
     {
-      cardText: "Delhi",
+      cardText: "Jaipur",
       cardImg:
-        "https://cdn.discordapp.com/attachments/753151975570276352/866270198931521566/unknown.png",
+        "https://cdn.discordapp.com/attachments/753151975570276352/866356767298289675/unknown.png",
     },
     {
-      cardText: "Delhi",
+      cardText: "Mumbai",
       cardImg:
-        "https://cdn.discordapp.com/attachments/753151975570276352/866270198931521566/unknown.png",
+        "https://cdn.discordapp.com/attachments/753151975570276352/866357186963701760/unknown.png",
     },
     {
-      cardText: "Delhi",
+      cardText: "Kerala",
       cardImg:
-        "https://cdn.discordapp.com/attachments/753151975570276352/866270198931521566/unknown.png",
+        "https://cdn.discordapp.com/attachments/753151975570276352/866359917882638346/74337330.png",
     },
     {
-      cardText: "Delhi",
+      cardText: "Varanasi",
       cardImg:
-        "https://cdn.discordapp.com/attachments/753151975570276352/866270198931521566/unknown.png",
+        "https://cdn.discordapp.com/attachments/753151975570276352/866360148783136768/varanasi.png",
     },
     {
-      cardText: "Delhi",
+      cardText: "Chennai",
       cardImg:
-        "https://cdn.discordapp.com/attachments/753151975570276352/866270198931521566/unknown.png",
+        "https://cdn.discordapp.com/attachments/753151975570276352/866360434696388608/CHENNAI20.png",
     },
     {
-      cardText: "Delhi",
+      cardText: "Kolkata",
       cardImg:
-        "https://cdn.discordapp.com/attachments/753151975570276352/866270198931521566/unknown.png",
+        "https://cdn.discordapp.com/attachments/753151975570276352/866360558755250186/attr_1815_20190329140817.png",
     },
     {
-      cardText: "Delhi",
+      cardText: "Punjab",
       cardImg:
-        "https://cdn.discordapp.com/attachments/753151975570276352/866270198931521566/unknown.png",
+        "https://cdn.discordapp.com/attachments/753151975570276352/866360745208709150/amritsar-3083693_960_720.png",
     },
     {
-      cardText: "Delhi",
+      cardText: "Bangalore",
       cardImg:
-        "https://cdn.discordapp.com/attachments/753151975570276352/866270198931521566/unknown.png",
+        "https://cdn.discordapp.com/attachments/753151975570276352/866360851211485213/Untitled-design-min.png",
     },
     {
-      cardText: "Delhi",
+      cardText: "Ooty",
       cardImg:
-        "https://cdn.discordapp.com/attachments/753151975570276352/866270198931521566/unknown.png",
+        "https://cdn.discordapp.com/attachments/753151975570276352/866361457921753088/ooty.png",
     },
     {
-      cardText: "Delhi",
+      cardText: "Gujarat",
       cardImg:
-        "https://cdn.discordapp.com/attachments/753151975570276352/866270198931521566/unknown.png",
+        "https://cdn.discordapp.com/attachments/753151975570276352/866361705097461780/Rani-ki-Vav-Gujarat.png",
     },
   ];
 
