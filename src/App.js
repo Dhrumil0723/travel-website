@@ -6,7 +6,7 @@ import CulturePage from "./Components/Culture-page/CulturePage";
 import StoriesSection from "./Components/Stories-section/StoriesSection";
 
 import "./App.css";
-// import VisitorForm from "./Components/VisitorForm";
+import VisitorForm from "./Components/Visitor-Form/VisitorForm";
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
         <RecPlaces />
         <CulturePage />
         <StoriesSection />
+        <VisitorForm />
       </div>
     </div>
   );
