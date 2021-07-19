@@ -35,7 +35,7 @@ const StoriesSection = () => {
             <button>Read More</button>
           </div>
           <p className="next">
-            Next <i class="far fa-chevron-right"></i>
+            Next <i className="far fa-chevron-right"></i>
           </p>
         </div>
       </div>

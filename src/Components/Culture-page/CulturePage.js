@@ -46,7 +46,7 @@ const cultureImages = [
 
 const CulturePage = () => {
   return (
-    <div className="culture-page">
+    <div className="culture-page" id="culture">
       <h1>India's Culture</h1>
       <div className="card-grid">
         {cultureImages.map((element, id) => (

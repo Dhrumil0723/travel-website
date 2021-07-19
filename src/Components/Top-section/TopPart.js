@@ -24,11 +24,11 @@ const TopPart = () => {
           <iframe
             width="90%"
             height="460"
-            src="https://www.youtube.com/embed/SAaevusBnNI"
+            src="https://www.youtube.com/embed/kFPTkmQX7JA"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
       </div>
