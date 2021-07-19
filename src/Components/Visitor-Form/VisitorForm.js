@@ -15,48 +15,57 @@ const Form = ({
   setQuery,
 }) => {
   return (
-    <form onSubmit={handleSubmit}>
-      <div className="input-container">
-        <label htmlFor="name">Name: </label>
-        <input
-          required
-          id="name"
-          type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
+    <div>
+      <form onSubmit={handleSubmit}>
+        <div className="input-container">
+          <label htmlFor="name">Name: </label>
+          <input
+            required
+            autoComplete="off"
+            id="name"
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+        </div>
+        <div className="input-container">
+          <label htmlFor="number">Contact no. : </label>
+          <input
+            required
+            autoComplete="off"
+            id="number"
+            type="number"
+            value={number}
+            onChange={(e) => setNumber(e.target.value)}
+          />
+        </div>
+        <div className="input-container">
+          <label htmlFor="email">Email: </label>
+          <input
+            required
+            autoComplete="off"
+            id="email"
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
+        <div className="input-container">
+          <label htmlFor="query">Feedback: </label>
+          <input
+            id="query"
+            type="textarea"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+          />
+        </div>
+      </form>
+      <div className="submit-btn">
+        <button type="submit">
+          Submit <i class="far fa-chevron-right"></i>
+        </button>
       </div>
-      <div className="input-container">
-        <label htmlFor="number">Contact no. : </label>
-        <input
-          required
-          id="number"
-          type="number"
-          value={number}
-          onChange={(e) => setNumber(e.target.value)}
-        />
-      </div>
-      <div className="input-container">
-        <label htmlFor="email">Email: </label>
-        <input
-          required
-          id="email"
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-      </div>
-      <div className="input-container">
-        <label htmlFor="query">Feedback: </label>
-        <input
-          id="query"
-          type="textarea"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-        />
-      </div>
-      <button type="submit">Submit</button>
-    </form>
+    </div>
   );
 };
 
