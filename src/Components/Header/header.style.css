@@ -14,7 +14,8 @@
   position: relative;
 }
 
-.header .left-side p {
+.header .left-side p,
+.header .left-side a {
   display: inline-block;
   margin: 1.3rem;
   font-size: 18px;
@@ -51,7 +52,7 @@
 }
 
 .header .right-side .search-box {
-  padding: 0.8rem 0.5rem;
+  padding: 0.6rem 0.5rem;
 }
 
 .header .right-side .search-box input {
@@ -74,7 +75,7 @@
 }
 
 .header .right-side .select-lang {
-  padding: 0.8rem 0.8rem;
+  padding: 0.6rem 0.8rem;
   font-size: 18px;
   color: #fff;
   cursor: pointer;
