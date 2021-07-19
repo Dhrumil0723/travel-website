@@ -73,7 +73,7 @@ const Form = () => {
       </form>
       <div className="submit-btn">
         <button onClick={handleSubmit}>
-          Submit <i class="far fa-chevron-right"></i>
+          Submit <i className="far fa-chevron-right"></i>
         </button>
       </div>
     </div>
