@@ -44,10 +44,10 @@ const RightSide = ({ click, setClick }) => {
         {click && (
           <div className="lang-list">
             <p>English</p>
-            <p>English</p>
-            <p>English</p>
-            <p>English</p>
-            <p>English</p>
+            <p>हिन्दी</p>
+            <p>বাংলা</p>
+            <p>ਪੰਜਾਬੀ </p>
+            <p>ગુજરાતી</p>
           </div>
         )}
       </div>

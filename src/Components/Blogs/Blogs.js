@@ -1,7 +1,8 @@
+import { useState } from "react";
 import BlogCard from "./blogCard/BlogCard";
 import "./blogs.style.css";
 
-const blogs = [
+const blogs1 = [
   {
     imgSrc:
       "https://cdn.discordapp.com/attachments/753151975570276352/866549223997571082/unknown.png",
@@ -35,7 +36,47 @@ const blogs = [
   },
 ];
 
+const blogs2 = [
+  {
+    imgSrc:
+      "https://cdn.discordapp.com/attachments/753151975570276352/866630863185641492/unknown.png",
+    title: "Ooty India",
+    text: "Ladakh, the land of the Lamas, is in itself quite offbeat. While tourism here has picked up, especially for us wanderer folks – there’s still a bunch of infor....",
+    userImg:
+      "https://cdn.discordapp.com/attachments/753151975570276352/866536124222537778/unknown.png",
+    userName: "John Doe",
+    userJob: "Warrior",
+  },
+  {
+    imgSrc:
+      "https://cdn.discordapp.com/attachments/753151975570276352/866630945964949514/unknown.png",
+    title: "Canal Kruise, Kerala",
+    text: "Ladakh, the land of the Lamas, is in itself quite offbeat. While tourism here has picked up, especially for us wanderer folks – there’s still a bunch of infor....",
+    userImg:
+      "https://cdn.discordapp.com/attachments/753151975570276352/866536124222537778/unknown.png",
+    userName: "John Doe",
+    userJob: "Warrior",
+  },
+  {
+    imgSrc:
+      "https://cdn.discordapp.com/attachments/753151975570276352/866639868137308160/jaipur.jpg",
+    title: "Gateway of India, Mumbai",
+    text: "Ladakh, the land of the Lamas, is in itself quite offbeat. While tourism here has picked up, especially for us wanderer folks – there’s still a bunch of infor....",
+    userImg:
+      "https://cdn.discordapp.com/attachments/753151975570276352/866536124222537778/unknown.png",
+    userName: "John Doe",
+    userJob: "Warrior",
+  },
+];
+
 const Blogs = () => {
+  const [view, setView] = useState(false);
+
+  const handleViewClick = () => {
+    setView(!view);
+    console.log("pika");
+  };
+
   return (
     <div className="blogs">
       <div className="text">
@@ -43,7 +84,7 @@ const Blogs = () => {
         <p>Blogs by the travellers around the globe</p>
       </div>
       <div className="blog-container">
-        {blogs.map((blog, id) => (
+        {blogs1.map((blog, id) => (
           <BlogCard
             key={id}
             imgSrc={blog.imgSrc}
@@ -54,10 +95,28 @@ const Blogs = () => {
             userJob={blog.userJob}
           />
         ))}
+        {view &&
+          blogs2.map((blog, id) => (
+            <BlogCard
+              key={id}
+              imgSrc={blog.imgSrc}
+              title={blog.title}
+              text={blog.text}
+              userImg={blog.userImg}
+              userName={blog.userName}
+              userJob={blog.userJob}
+            />
+          ))}
       </div>
       <div className="view-more">
-        <h3>View More</h3>
-        <i className="far fa-chevron-down"></i>
+        <h3 onClick={() => handleViewClick()}>
+          {" "}
+          {!view ? "View More" : "Close"}
+        </h3>
+        <i
+          onClick={() => handleViewClick()}
+          className={!view ? "far fa-chevron-down" : "far fa-chevron-up"}
+        ></i>
       </div>
     </div>
   );
