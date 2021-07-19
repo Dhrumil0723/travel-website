@@ -14,9 +14,10 @@ const blogs = [
   },
   {
     imgSrc:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866549223997571082/unknown.png",
-    title: "Babul Tree in Sarson Ke Khet – Rural Gurgaon",
-    text: "The Tree of Life: In Sarson Ke Khets of Gurgaon Don’t get me wrong, I am aware that the tree of life is a mythical tree depicted in art that transcends religion from Jainism, Buddhism, Hind.......",
+      "https://cdn.discordapp.com/attachments/753151975570276352/866614604308938782/unknown.png",
+    title:
+      "10 Less Visited Offbeat Places in Ladakh That You Must Visit On Your Trip",
+    text: "Ladakh, the land of the Lamas, is in itself quite offbeat. While tourism here has picked up, especially for us wanderer folks – there’s still a bunch of infor....",
     userImg:
       "https://cdn.discordapp.com/attachments/753151975570276352/866536124222537778/unknown.png",
     userName: "John Doe",
@@ -24,9 +25,9 @@ const blogs = [
   },
   {
     imgSrc:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866549223997571082/unknown.png",
-    title: "Babul Tree in Sarson Ke Khet – Rural Gurgaon",
-    text: "The Tree of Life: In Sarson Ke Khets of Gurgaon Don’t get me wrong, I am aware that the tree of life is a mythical tree depicted in art that transcends religion from Jainism, Buddhism, Hind.......",
+      "https://cdn.discordapp.com/attachments/753151975570276352/866614861118570536/unknown.png",
+    title: "Chindi & Karsog – An Offbeat Place Travel Guide [Himachal Pradesh]",
+    text: "Ladakh, the land of the Lamas, is in itself quite offbeat. While tourism here has picked up, especially for us wanderer folks – there’s still a bunch of infor....",
     userImg:
       "https://cdn.discordapp.com/attachments/753151975570276352/866536124222537778/unknown.png",
     userName: "John Doe",
