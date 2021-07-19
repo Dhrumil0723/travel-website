@@ -55,7 +55,8 @@ const Blogs = () => {
         ))}
       </div>
       <div className="view-more">
-        <h1>View More</h1>
+        <h3>View More</h3>
+        <i className="far fa-chevron-down"></i>
       </div>
     </div>
   );
