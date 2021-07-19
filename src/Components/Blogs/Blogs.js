@@ -9,9 +9,9 @@ const blogs1 = [
     title: "Babul Tree in Sarson Ke Khet – Rural Gurgaon",
     text: "The Tree of Life: In Sarson Ke Khets of Gurgaon Don’t get me wrong, I am aware that the tree of life is a mythical tree depicted in art that transcends religion from Jainism, Buddhism, Hind.......",
     userImg:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866536124222537778/unknown.png",
-    userName: "John Doe",
-    userJob: "Warrior",
+      "https://cdn.discordapp.com/attachments/856097034037362718/866652629009301524/CamScanner_07-03-2021_13.41.04_1.jpg",
+    userName: "Vansh Shah",
+    userJob: "PiRO Developer",
   },
   {
     imgSrc:
@@ -55,7 +55,7 @@ const blogs2 = [
     userImg:
       "https://cdn.discordapp.com/attachments/753151975570276352/866647573276131348/1594219183776.png",
     userName: "Annu",
-    userJob: "team evolving's didi",
+    userJob: "Team Evolving's didi",
   },
   {
     imgSrc:

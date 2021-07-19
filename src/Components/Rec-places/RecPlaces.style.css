@@ -22,6 +22,7 @@
 
 .RecPlaces .rec-places-list {
   width: 80%;
+  z-index: 0 !important;
 }
 
 .RecPlaces .card {
