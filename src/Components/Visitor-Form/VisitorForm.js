@@ -1,11 +1,31 @@
 import React, { useState } from "react";
 
+import Snackbar from "@material-ui/core/Snackbar";
+import MuiAlert from "@material-ui/lab/Alert";
+import { makeStyles } from "@material-ui/core/styles";
+
 import "./Visitor-Form.style.css";
 import db from "../../firebase";
 
+function Alert(props) {
+  return <MuiAlert elevation={6} variant="filled" {...props} />;
+}
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    width: "100%",
+    "& > * + *": {
+      marginTop: theme.spacing(2),
+    },
+  },
+}));
+
 const Form = () => {
+  const classes = useStyles();
+  const [open, setOpen] = useState(false);
+
   const [name, setName] = useState("");
-  const [number, setNumber] = useState(0);
+  const [number, setNumber] = useState(91);
   const [email, setEmail] = useState("");
   const [query, setQuery] = useState("");
 
@@ -20,9 +40,17 @@ const Form = () => {
     db.collection("queries").add(queryMessage);
 
     setName("");
-    setNumber(0);
+    setNumber(91);
     setEmail("");
     setQuery("");
+    setOpen(true);
+  };
+
+  const handleClose = (event, reason) => {
+    if (reason === "clickaway") {
+      return;
+    }
+    setOpen(false);
   };
   return (
     <div>
@@ -74,6 +102,13 @@ const Form = () => {
         <button onClick={handleSubmit}>
           Submit <i className="far fa-chevron-right"></i>
         </button>
+      </div>
+      <div className={classes.root}>
+        <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+          <Alert onClose={handleClose} severity="success">
+            This is a success message!
+          </Alert>
+        </Snackbar>
       </div>
     </div>
   );
