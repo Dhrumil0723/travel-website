@@ -20,19 +20,19 @@ const blogs1 = [
       "10 Less Visited Offbeat Places in Ladakh That You Must Visit On Your Trip",
     text: "Ladakh, the land of the Lamas, is in itself quite offbeat. While tourism here has picked up, especially for us wanderer folks – there’s still a bunch of infor....",
     userImg:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866536124222537778/unknown.png",
-    userName: "John Doe",
-    userJob: "Warrior",
+      "https://cdn.discordapp.com/attachments/753151975570276352/866647323622768640/1605498105617.png",
+    userName: "Siddhartha",
+    userJob: "Bade bhiya",
   },
   {
     imgSrc:
       "https://cdn.discordapp.com/attachments/753151975570276352/866614861118570536/unknown.png",
     title: "Chindi & Karsog – An Offbeat Place Travel Guide [Himachal Pradesh]",
-    text: "Ladakh, the land of the Lamas, is in itself quite offbeat. While tourism here has picked up, especially for us wanderer folks – there’s still a bunch of infor....",
+    text: "Chindi, a hamlet in Karsog Valley is unknown and an offbeat place in Himachal Pradesh. And, that is its biggest advantage. Untouched by tourism, Chindi maintains ....",
     userImg:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866536124222537778/unknown.png",
-    userName: "John Doe",
-    userJob: "Warrior",
+      "https://cdn.discordapp.com/attachments/753151975570276352/866647532422823946/1625676878105.png",
+    userName: "Venom",
+    userJob: "The real OG",
   },
 ];
 
@@ -40,32 +40,32 @@ const blogs2 = [
   {
     imgSrc:
       "https://cdn.discordapp.com/attachments/753151975570276352/866630863185641492/unknown.png",
-    title: "Ooty India",
-    text: "Ladakh, the land of the Lamas, is in itself quite offbeat. While tourism here has picked up, especially for us wanderer folks – there’s still a bunch of infor....",
+    title: "My Trip to Ooty, Tamilnadu: A Mesmerizing Experience",
+    text: "Ooty, one of the famous tourist places for the honeymooners; the hill station about which we heard for the umpteenth time since childhood; the shooting spot for so many movies; ....",
     userImg:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866536124222537778/unknown.png",
-    userName: "John Doe",
-    userJob: "Warrior",
+      "https://cdn.discordapp.com/attachments/753151975570276352/866647555688628224/1586838939841.png",
+    userName: "Ankit",
+    userJob: "The great titan",
   },
   {
     imgSrc:
       "https://cdn.discordapp.com/attachments/753151975570276352/866630945964949514/unknown.png",
-    title: "Canal Kruise, Kerala",
-    text: "Ladakh, the land of the Lamas, is in itself quite offbeat. While tourism here has picked up, especially for us wanderer folks – there’s still a bunch of infor....",
+    title: "The thriving port town of Kochi",
+    text: "Once the main centre of India’s spice trade, is a unique amalgamation of the old and the new. Take a walk down the rambling alleys of Kochi’s historic Jewish Colony, lined with brightly-painted houses....",
     userImg:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866536124222537778/unknown.png",
-    userName: "John Doe",
-    userJob: "Warrior",
+      "https://cdn.discordapp.com/attachments/753151975570276352/866647573276131348/1594219183776.png",
+    userName: "Annu",
+    userJob: "team evolving's didi",
   },
   {
     imgSrc:
       "https://cdn.discordapp.com/attachments/753151975570276352/866639868137308160/jaipur.jpg",
-    title: "Gateway of India, Mumbai",
-    text: "Ladakh, the land of the Lamas, is in itself quite offbeat. While tourism here has picked up, especially for us wanderer folks – there’s still a bunch of infor....",
+    title: "Jaipur – Off the beaten trail in The ‘Pink’ City",
+    text: "India’s official ‘pink city’, there’s much more to Rajasthan’s capital than its pink-red-tinged buildings and historic splendour. This majestic home to erstwhile royals ....",
     userImg:
-      "https://cdn.discordapp.com/attachments/753151975570276352/866536124222537778/unknown.png",
-    userName: "John Doe",
-    userJob: "Warrior",
+      "https://cdn.discordapp.com/attachments/753151975570276352/866647592518811648/1619943307826.png",
+    userName: "Vinitpal",
+    userJob: "Lightning Kirua",
   },
 ];
 
@@ -78,7 +78,7 @@ const Blogs = () => {
   };
 
   return (
-    <div className="blogs" id="blog">
+    <div className="blogs">
       <div className="text">
         <h1>Popular Blogs</h1>
         <p>Blogs by the travellers around the globe</p>
