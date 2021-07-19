@@ -1,22 +1,33 @@
 import React, { useState } from "react";
 
 import "./Visitor-Form.style.css";
-import db from "../../firebase";
+// import db from "../../firebase";
 
-const Form = ({
-  handleSubmit,
-  name,
-  setName,
-  number,
-  setNumber,
-  email,
-  setEmail,
-  query,
-  setQuery,
-}) => {
+const Form = () => {
+  const [name, setName] = useState("");
+  const [number, setNumber] = useState(0);
+  const [email, setEmail] = useState("");
+  const [query, setQuery] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const queryMessage = {
+      name,
+      number,
+      email,
+      query,
+    };
+    console.log(queryMessage);
+    // db.collection("queries").add(queryMessage);
+
+    setName("");
+    setNumber(0);
+    setEmail("");
+    setQuery("");
+  };
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form>
         <div className="input-container">
           <label htmlFor="name">Name: </label>
           <input
@@ -54,14 +65,14 @@ const Form = ({
           <label htmlFor="query">Feedback: </label>
           <input
             id="query"
-            type="textarea"
+            type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
         </div>
       </form>
       <div className="submit-btn">
-        <button type="submit">
+        <button onClick={handleSubmit}>
           Submit <i class="far fa-chevron-right"></i>
         </button>
       </div>
@@ -70,28 +81,6 @@ const Form = ({
 };
 
 const VisitorForm = () => {
-  const [name, setName] = useState("");
-  const [number, setNumber] = useState(0);
-  const [email, setEmail] = useState("");
-  const [query, setQuery] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const queryMessage = {
-      name,
-      number,
-      email,
-      query,
-    };
-
-    db.collection("queries").add(queryMessage);
-
-    setName("");
-    setNumber(0);
-    setEmail("");
-    setQuery("");
-  };
-
   return (
     <div className="form">
       <div className="visitor-form">
@@ -99,17 +88,7 @@ const VisitorForm = () => {
           <h1>Help us to Provide better by fillng a feedback !</h1>
         </div>
         <div className="form-wrapper">
-          <Form
-            handleSubmit={handleSubmit}
-            name={name}
-            setName={setName}
-            number={number}
-            setNumber={setNumber}
-            email={email}
-            setEmail={setEmail}
-            query={query}
-            setQuery={setQuery}
-          />
+          <Form />
         </div>
       </div>
     </div>
