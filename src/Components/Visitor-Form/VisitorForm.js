@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import "./Visitor-Form.style.css";
-// import db from "../../firebase";
+import db from "../../firebase";
 
 const Form = () => {
   const [name, setName] = useState("");
@@ -17,8 +17,7 @@ const Form = () => {
       email,
       query,
     };
-    console.log(queryMessage);
-    // db.collection("queries").add(queryMessage);
+    db.collection("queries").add(queryMessage);
 
     setName("");
     setNumber(0);
