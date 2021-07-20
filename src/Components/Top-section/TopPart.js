@@ -19,7 +19,7 @@ const TopPart = () => {
       <div className="video-area">
         <div className="video">
           <div className="video-play">
-            <i className="far fa-play"></i>
+            <img src="./assets/play.png" />
           </div>
           <iframe
             width="90%"

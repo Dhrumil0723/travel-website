@@ -3,6 +3,11 @@ import "./footer.style.css";
 const Footer = () => {
   return (
     <div className="footer">
+      <h1>Designed By</h1>
+      <div className="links">
+        <a href="https://dribbble.com/jay_1308">Jay</a>
+        <a href="https://dribbble.com/Doodle1210">Priyansh</a>
+      </div>
       <h1>Made with &#10084; by Team Evolving</h1>
       <div className="links">
         <a href="https://www.linkedin.com/in/siddharth-sahu-10/">Siddharth</a>
