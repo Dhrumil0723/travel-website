@@ -6,6 +6,7 @@
   background-color: #fff;
   z-index: 99;
   border-radius: 15px;
+  box-shadow: 0 0 6px rgb(0 0 0 / 50%);
 }
 
 .destination-wrapper {

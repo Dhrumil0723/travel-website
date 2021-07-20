@@ -78,7 +78,7 @@ const Blogs = () => {
   };
 
   return (
-    <div className="blogs">
+    <div className="blogs" id="blog">
       <div className="text">
         <h1>Popular Blogs</h1>
         <p>Blogs by the travellers around the globe</p>
