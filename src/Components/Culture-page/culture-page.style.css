@@ -29,6 +29,7 @@
 .culture-page .card-grid .card {
   cursor: pointer;
   position: relative;
+  z-index: 0;
 }
 
 .culture-page .card-grid .card-overlay {
